@@ -1,0 +1,33 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#mnbx{
+  /* border: 2px solid red; */
+  transition-duration: 1.5s;
+}
+#nav{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top:590px;
+  /* border: 2px solid red; */
+  margin-left: 100px;
+}
+
+#bt1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+#btns{
+  outline: none;
+}
